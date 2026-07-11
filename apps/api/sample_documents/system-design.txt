@@ -1,0 +1,10 @@
+System design checklist
+
+The service should keep the request path simple.
+It should separate ingestion from retrieval.
+During ingestion, text is split into small chunks, embedded, and stored.
+During retrieval, a question is embedded and compared against stored chunks.
+The top matching chunks are then sent to the language model as grounded context.
+
+This design keeps the data flow easy to reason about.
+Each component has a single responsibility.

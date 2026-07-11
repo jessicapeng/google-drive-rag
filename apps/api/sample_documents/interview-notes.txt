@@ -1,0 +1,8 @@
+Interview notes
+
+The candidate explained that they prefer short, clear code.
+They also noted that a small database schema is easier to maintain than a large one.
+The conversation highlighted the importance of keeping the prompt grounded in retrieved context.
+When the model is given only local evidence, the answer is easier to verify.
+
+The team agreed that the first milestone should prove the retrieval flow before adding authentication or external integrations.

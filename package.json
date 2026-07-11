@@ -1,0 +1,17 @@
+{
+  "name": "google-drive-rag",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "mobile:start": "npm --workspace apps/mobile start",
+    "mobile:android": "npm --workspace apps/mobile android",
+    "mobile:ios": "npm --workspace apps/mobile ios",
+    "api:dev": "cd apps/api && python -m uvicorn app.main:app --reload"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

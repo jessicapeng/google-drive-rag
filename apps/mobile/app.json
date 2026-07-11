@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Google Drive RAG",
+    "slug": "google-drive-rag",
+    "scheme": "google-drive-rag",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

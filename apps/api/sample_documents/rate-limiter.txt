@@ -1,0 +1,10 @@
+Rate limiting notes
+
+A token bucket is a simple algorithm for controlling request throughput.
+Each bucket has a capacity and a refill rate.
+When a request arrives, the system checks whether enough tokens are available.
+If the bucket is full, the request can proceed immediately.
+If the bucket is empty, the request is rejected or delayed.
+
+In the service, token buckets are useful for protecting upstream APIs from bursts of traffic.
+The administrator can tune the bucket size to meet the desired latency and reliability tradeoff.
