@@ -1,6 +1,6 @@
 # Google Drive RAG App
 
-This repository is the Milestone 1 implementation of a small RAG demo.
+
 
 ## Architecture
 
